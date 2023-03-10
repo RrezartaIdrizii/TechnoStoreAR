@@ -32,12 +32,20 @@
               <li><a href="javascript:void(0)" v-on:click="doLogout">Logout</a></li>
             </ul>
         </li>
-
         <li>
-          <router-link to="/cart">Cart <span v-if="cartCounter > 0" v-text="'(' + cartCounter + ')'"></span></router-link>
+          <router-link to="/news">News</router-link>
         </li>
         <li>
-          <router-link to="/about">About</router-link>
+          <router-link to="/events">Events</router-link>
+        </li>
+        <li>
+          <router-link to="/aboutUs">About Us</router-link>
+        </li>
+        <li>
+          <router-link to="/contactUs">Contact Us</router-link>
+        </li>
+        <li>
+          <router-link to="/cart">CART <span v-if="cartCounter > 0" v-text="'(' + cartCounter + ')'"></span></router-link>
         </li>
         <!-- <li>
           <router-link to="/premium">Premium version</router-link>
