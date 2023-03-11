@@ -21,7 +21,7 @@
                             </div>
 
                             <div class="input-group input-group-outline mb-3">
-                                <label class="form-label no-left-margin">Price ($)</label>
+                                <label class="form-label no-left-margin">Price (€)</label>
                                 <input type="number" min="0" autocomplete="off" name="price" class="form-control" required />
                             </div>
 

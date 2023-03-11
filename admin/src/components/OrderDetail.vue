@@ -27,7 +27,7 @@
                                         </td>
 
                                         <td>
-                                            $<span v-text="item.price"></span>
+                                            €<span v-text="item.price"></span>
                                         </td>
 
                                         <td>
@@ -35,7 +35,7 @@
                                         </td>
 
                                         <td>
-                                            $<span v-text="parseInt(item.price) * item.units"></span>
+                                            €<span v-text="parseInt(item.price) * item.units"></span>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -44,7 +44,7 @@
                     </div>
 
                     <div class="card-footer">
-                        <h3>Total: $<span v-text="totalOrder"></span></h3>
+                        <h3>Total: €<span v-text="totalOrder"></span></h3>
                     </div>
                 </div>
             </div>

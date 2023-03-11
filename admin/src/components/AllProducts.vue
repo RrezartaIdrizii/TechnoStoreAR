@@ -27,7 +27,7 @@
                                         </td>
 
                                         <td>
-                                            $<span v-text="product.price"></span>
+                                            €<span v-text="product.price"></span>
                                         </td>
 
                                         <td>

@@ -1,4 +1,5 @@
 - Start Mongo DB server by running the following command in "bin" folder where Mongo DB is installed:
+    >cd /"Program Files"/MongoDB/Server/6.0/bin
     > ./mongod
 
 - Go in "server" folder and run the following command:

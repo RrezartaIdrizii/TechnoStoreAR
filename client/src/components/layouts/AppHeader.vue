@@ -9,7 +9,7 @@
           <form style="position: relative; top: 10px;" v-on:submit.prevent="doSearch">
             <div class="input-field">
               <input id="search" type="search" v-model="search" style="height: 50px;" />
-              <label class="label-icon" for="search"><i class="material-icons" style="line-height: 50px;">search</i></label>
+              <label class="label-icon" for="search"><i class="material-icons" style="line-height: 50px; padding: 5px;">search</i></label>
               <i class="material-icons" style="line-height: 50px;">close</i>
             </div>
           </form>
@@ -47,9 +47,6 @@
         <li>
           <router-link to="/cart">CART <span v-if="cartCounter > 0" v-text="'(' + cartCounter + ')'"></span></router-link>
         </li>
-        <!-- <li>
-          <router-link to="/premium">Premium version</router-link>
-        </li> -->
       </ul>
 
       <ul id="nav-mobile" class="sidenav">

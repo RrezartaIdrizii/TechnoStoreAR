@@ -45,13 +45,13 @@
 			<div class="row">
 				<div class="col m1">
 					<div class="card">
-						<div class="card-body" style="padding-top: 10px; padding-bottom: 10px; padding-left: 20px;">
+						<div class="card-body" style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px;">
 							<p style="cursor: pointer;" v-on:click="onclickCategory">All</p>
 						</div>
 					</div>
 
 					<div class="card" v-for="category in categories">
-						<div class="card-body" style="padding-top: 10px; padding-bottom: 10px; padding-left: 20px;">
+						<div class="card-body" style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px;">
 							<p v-text="category" style="cursor: pointer;" v-on:click="onclickCategory"></p>
 						</div>
 					</div>
@@ -179,6 +179,6 @@
         	search: function (to, from) {
         		this.getData()
         	}
-        }
+        }	
 	}
 </script>

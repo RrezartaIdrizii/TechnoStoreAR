@@ -9,6 +9,9 @@ import CartComponent from "./components/CartComponent.vue"
 import CheckoutComponent from "./components/CheckoutComponent.vue"
 import RegisterComponent from "./components/RegisterComponent.vue"
 import LoginComponent from "./components/LoginComponent.vue"
+import ContactUsComponent from "./components/ContactUsComponent.vue"
+import AboutUsComponent from "./components/AboutUsComponent.vue"
+import NewsComponent from "./components/NewsComponent.vue"
 
 const routes = [
     { path: "/login", component: LoginComponent },
@@ -16,7 +19,11 @@ const routes = [
     { path: "/checkout", component: CheckoutComponent },
     { path: "/cart", component: CartComponent },
     { path: "/product/:_id", component: ProductDetail },
-    { path: "/", component: HomeComponent }
+    { path: "/", component: HomeComponent },
+    { path: "/contactus", component: ContactUsComponent },
+    { path: "/aboutus", component: AboutUsComponent },
+    { path: "/news", component: NewsComponent }
+
 ]
 const router = createRouter({
     history: createWebHistory(),

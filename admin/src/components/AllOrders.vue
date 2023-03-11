@@ -61,7 +61,7 @@
                                         </td>
 
                                         <td>
-                                            $<span v-text="getTotal(order.cart, order.shippingCharges || 0)"></span>
+                                            €<span v-text="getTotal(order.cart, order.shippingCharges || 0)"></span>
                                         </td>
 
                                         <td>
