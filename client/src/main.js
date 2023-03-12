@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import firebase from 'firebase'
 
 import { createRouter, createWebHistory } from "vue-router"
 
@@ -12,6 +13,9 @@ import LoginComponent from "./components/LoginComponent.vue"
 import ContactUsComponent from "./components/ContactUsComponent.vue"
 import AboutUsComponent from "./components/AboutUsComponent.vue"
 import NewsComponent from "./components/NewsComponent.vue"
+import EventsComponent from "./components/EventsComponent.vue"
+
+
 
 const routes = [
     { path: "/login", component: LoginComponent },
@@ -22,7 +26,8 @@ const routes = [
     { path: "/", component: HomeComponent },
     { path: "/contactus", component: ContactUsComponent },
     { path: "/aboutus", component: AboutUsComponent },
-    { path: "/news", component: NewsComponent }
+    { path: "/news", component: NewsComponent },
+    { path: "/events", component: EventsComponent}
 
 ]
 const router = createRouter({

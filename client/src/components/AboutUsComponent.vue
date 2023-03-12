@@ -2,7 +2,7 @@
   <div class="about-us">
   <div class="background-about-us" >
  <br>
-      <h1 style="text-align: center; color:orange; font-weight: bold;">ABOUT US</h1>
+      <h1 style="text-align: center; color:#ee6e73; font-weight: bold;">ABOUT US</h1>
      
     </div>
 

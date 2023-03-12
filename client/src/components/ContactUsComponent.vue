@@ -17,16 +17,13 @@
               <h1>store</h1>
               <h1>tool</h1>
             </div>
-            <p class="lead mb-4 text-white opacity-8"><b>
+            <br>
+            <br>
+            <p class="lead mb-4 text-white opacity-8" style="color: #ee6e73; font-weight: bolder; text-align: center; text-decoration-line:overline"><b>
               We're constantly trying to express ourselves and actualize our
-              dreams. If you have the opportunity to play this game
+              dreams.
             </b></p>
-            <br>
-            <br>
-            <button type="submit" class="btn bg-white text-dark"><a href="http://localhost:8080/register" style="color: white;">
-              Create Account
-            </a></button>
-            <br>
+          
           </div>
         </div>
       </div>
@@ -152,7 +149,7 @@ textarea {
 }
 
 button[type="submit"] {
-  background-color: #007bff;
+  
   color: #fff;
   border: none;
   font-size: 1rem;
@@ -165,5 +162,6 @@ button[type="submit"]:hover {
 }
 .text-whitee {
   color:#fff !important;
+  font-size: 50px;
 }
 </style>

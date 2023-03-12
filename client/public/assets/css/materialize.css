@@ -1656,7 +1656,7 @@
 }
 
 .orange-text {
-  color: #ff9800 !important;
+  color: #ee6e73 !important;
 }
 
 .orange.lighten-5 {
@@ -2592,6 +2592,9 @@ optgroup,
 select,
 textarea {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  padding:10px 20px;
+  font-size: 20px;
+  background-color: #26a69a;
 }
 
 ul:not(.browser-default) {
@@ -4912,7 +4915,7 @@ small {
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
-  color: #ffab40;
+  color: #ee6e73;
   margin-right: 24px;
   -webkit-transition: color .3s ease;
   transition: color .3s ease;
