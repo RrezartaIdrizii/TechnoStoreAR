@@ -1,0 +1,20 @@
+- Start Mongo DB server by running the following command in "bin" folder where Mongo DB is installed:
+    >cd /"Program Files"/MongoDB/Server/6.0/bin
+    > ./mongod
+
+- Go in "server" folder and run the following command:
+    > npm update
+    > npm install -g nodemon
+    > nodemon server.js
+
+- Go in "client" folder and run the following command:
+    > npm update
+    > npm run serve
+
+- Go in "admin" folder and run the following command:
+    > npm update
+    > npm run serve -- --port=8081
+
+- To setup SMTP emails:
+    Open server > modules > globals.js
+    Then set the username and password in "nodemailerObject" variable.
